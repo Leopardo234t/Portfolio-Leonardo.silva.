@@ -1,0 +1,78 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: linear-gradient(to right, #04457a, #0582ca);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+h1 {
+    text-align: center;
+    padding: 50px 20px 30px;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+h2{
+    margin-bottom: 40px;
+    color: #04457a;
+    font-size: 1.8rem;
+    text-align: center;
+}
+h3{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #04457a;
+    font-size: 1.4rem;
+    text-align: left;
+
+}
+
+.container {
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px 30px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    box-shadow:
+        rgba(0, 0, 0, 0.2) 0px 14px 28px,
+        rgba(0, 0, 0, 0.15) 0px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.container p {
+    text-align: justify;
+    font-size: 1.05rem;
+    color: #333;
+}
+
+.imagem-container {
+    display: flex;
+    gap: 20px; /* Espaço entre as imagens */
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center; /* Alinha verticalmente (se necessário) */
+    flex-wrap: wrap; /* Para quebrar linha se necessário */
+    margin-bottom: 30px;
+}
+
+.imagem-container img {
+    max-width: 45%; /* Ajuste conforme necessário */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
